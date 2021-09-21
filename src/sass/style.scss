@@ -1,0 +1,19 @@
+//Mixins
+@mixin transitionEffect($par){
+  transition: $par all;
+  -webkit-transition: $par all;
+  -moz-transition: $par all;
+  -o-transition: $par all;
+}
+@mixin centerFlex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//color
+$bg-color-1 :#3b3b98;
+$bg-color-2: #fff;
+$bg-color-3: #23235b;
+$bg-color-4: rgba(255, 255, 255, 0.2);
+$bg-color-5: rgba(0, 0, 0, 0.4);
